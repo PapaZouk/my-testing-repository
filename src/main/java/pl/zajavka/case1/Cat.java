@@ -1,7 +1,7 @@
 package pl.zajavka.case1;
 
 public class Cat extends Animal {
-
+    private int age;
     private String milk;
 
     public Cat(String milk) {
