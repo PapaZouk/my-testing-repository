@@ -6,4 +6,9 @@ public class Dog extends Animal {
     public void sniff() {
         System.out.println("I'm soo sniffing!");
     }
+
+    @Override
+    protected String whatIsYourName() {
+        return "Hi, my name is " + name;
+    }
 }
