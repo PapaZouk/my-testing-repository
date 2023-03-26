@@ -8,7 +8,15 @@ record Person(String name, Long age, BigDecimal salary) {
         return true;
     }
 
+    public BigDecimal howMuchDoYouEarn() {
+        return salary;
+    }
+
     public Boolean doYouLikePizza() {
         return true;
+    }
+
+    public String whatDoYouLike() {
+        return "Strawberries";
     }
 }
